@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>BAYRAKTAR Gaming Club</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex justify-content-between align-items-center">
+            <div class="logo d-flex align-items-center">
+                <img src="img/logo.svg" alt="">
+                <div class="logo-text">
+                    <h1>HELP UA</h1>
+                    <p>humanitarian aid</p>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="link-items">Відгуки</a>
+                    </li>
+                    <li>
+                        <a href="" class="link-items">Новини</a>
+                    </li>
+                    <li>
+                        <a href="" class="link-items">Профіль</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="">
+            <div class="section-left animate__animated animate__fadeInLeft">
+                <h1>Гумунітарна допомога</h1>
+                <p> Разом до перемоги</p>
+            </div>
+            <div class="selection-right animate__animated animate__fadeInRight">
+                <div id="register">
+                    <p class="fw-bold">Форма регистрації черги на допомогу</p>
+                    <form action="/index.html" method="post">
+                        <input type="text" id="name" placeholder="Введіть Ім’я">
+                        <input type="mail" id="email" placeholder="example@gmail.com">
+                        <input type="text" name="phone-number" placeholder="+380 (__) ___ __ __" />
+                        <select name="" id="">
+                            <option value="">Вул. Харківська</option>
+                            <option value="">Вул. Харківська</option>
+                            <option value="">Вул. Харківська</option>
+                        </select>
+                        <button type="button" onclick="display()">Залишити заявку</button>
+                    </form>
+                </div>
+
+                <div class="d-flex justify-content-center flex-column seccses d-none animate__animated animate__fadeIn" id="seccses">
+                    <img src="img/seccses.svg" alt="">
+                    <p class="fw-bold">Заявка була відправлена</p>
+                    <p>Чекайте зворотнього звязку нашого оператору для підтвердження черги</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container">
+        <p>10.00-22.00 без выходных</p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
